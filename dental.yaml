@@ -1,3 +1,5 @@
+Drive Link: https://drive.google.com/drive/folders/18lFHhuJo1t7HkhE4_XFHHVM6up4wtF6L?usp=sharing
+
 path: /content/drive/MyDrive/Shirsh_Barnwal_Dental  # root dataset folder
 
 train: /content/drive/MyDrive/Shirsh_Barnwal_Dental/dataset/images/train
@@ -37,3 +39,4 @@ names:
   29: Third Molar (28)
   30: Third Molar (38)
   31: Third Molar (48)
+
