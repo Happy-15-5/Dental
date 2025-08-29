@@ -1,4 +1,4 @@
-#Dental X-Ray Tooth Detection & FDI Numbering
+**Dental X-Ray Tooth Detection & FDI Numbering**
 
 This repository contains a YOLO-based object detection pipeline for detecting and numbering teeth in dental X-rays using the FDI World Dental Federation system.
 
@@ -22,7 +22,7 @@ Post-processing for anatomically correct FDI numbering
 │   ├── images/            # X-ray images
 │   └── labels/            # YOLO annotation labels
 
-#Setup
+**Setup**
 
 Clone this repo and open in Google Colab or local machine
 
@@ -41,7 +41,7 @@ data/
     ├── train/
     ├── val/
     └── test/
-#Training
+**Training**
 
 Run the following in Colab or Jupyter:
 
@@ -59,7 +59,7 @@ model.train(
 Outputs are saved in:
 runs/detect/train*/weights/best.pt
 
-#Evaluation
+**Evaluation**
 
 Generate metrics:
 
@@ -72,7 +72,7 @@ Precision/Recall/mAP per class
 
 Training curves (loss, accuracy, precision, recall)
 
-#Inference
+**Inference**
 
 Run inference on test images:
 
@@ -96,7 +96,7 @@ Assign FDI numbers sequentially
 
 Handle missing teeth (skip numbers where spacing is wide)
 
-#Outputs
+**Outputs**
 
 Predicted bounding boxes with FDI IDs
 
